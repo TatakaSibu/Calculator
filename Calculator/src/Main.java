@@ -38,7 +38,7 @@ public class Main {
                     result = firstValue / secondValue;
                 } catch (ArithmeticException e) {
                     System.out.println("Error: " + e.getMessage());
-                    return; // exit the program
+                    return; 
                 }
                 break;
 
